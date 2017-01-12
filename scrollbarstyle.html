@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="">
+		html {
+height: 100%; 
+}
+
+body {
+height: 100%; 
+margin: 0; 
+background-color: silver
+}
+
+p {
+font-weight: 900; 
+}
+
+.alfa {
+background-color: fuchsia; 
+margin: 20px auto; 
+height: 120px; width: 50%; 
+}
+
+.bravo, .charly {
+position: absolute; 
+height: 120px; width: 50%; 
+background-color: red; 
+font: 900 80px/1.5 cursive; 
+letter-spacing: 5px; 
+white-space : nowrap; 
+overflow: scroll; 
+background-clip: border-box; 
+color: black; 
+mix-blend-mode: multiply; 
+}
+
+.charly {
+mix-blend-mode: difference; 
+}
+
+	</style>
+</head>
+<body>
+<h1>Scrollbars con color para Firefox. (Experimental)</h1>
+
+<div class=alfa><div class=bravo>
+TEXTO LARGO PARA FORZAR LA APARICIÓN DE BARRAS DE DESPLAZAMIENTO COLOREADAS EN FIREFOX.
+</div></div>
+
+<div class=alfa><div class=charly>
+TEXTO LARGO PARA FORZAR LA APARICIÓN DE BARRAS DE DESPLAZAMIENTO COLOREADAS EN FIREFOX.
+</div></div>
+
+<p>Solamente se pueden ver con <samp>layout.css.mix-blend-mode.enabled → true .</samp><br>
+<a href="http://codepen.io/adobe/details/LplJi"> Demo of CSS Blend modes</a>. <br>
+Versión mejorada en <a href="https://escss.blogspot.com/2015/10/coloreado-scroll-js-css.html">Averiguar tamaños y pasar su valor a Css. Caso de uso: coloreado del scroll.</a>
+</p>
+
+</body>
+</html>

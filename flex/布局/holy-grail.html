@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style type="text/css">
+		*{
+			box-sizing: border-box;
+		}
+
+		body{
+			margin: 0;
+		}
+
+		.holy-grail{
+			display: flex;
+			flex-direction: column;
+			text-align: center;
+			min-height: 100vh;
+		}
+
+		header,footer{
+			flex: 0;
+			background-color: #e3e3e3;
+		}
+		.holy-grail-body{
+			display: flex;
+			flex: 1;
+		}
+
+		.holy-grail-nav,.holy-grail-ads{
+			flex: 0 0 12em;
+			background-color: #d1d1d1;
+		}
+		.holy-grail-content{
+			flex: 1;
+			background-color: #b1b1b1;
+		}
+		.holy-grail-nav{
+			order: -1;
+		}
+
+		@media (max-width: 769px){
+			.holy-grail-body{
+				flex-direction: column;
+			}
+			  .HolyGrail-nav,
+			  .HolyGrail-ads,
+			  .HolyGrail-content {
+			    	flex: auto;
+			  }
+		}
+
+
+	</style>
+</head>
+<body>
+
+<div class="holy-grail">
+	<header>#header</header>
+	<div class="holy-grail-body">
+		<main class="holy-grail-content">#center<br><h3>圣杯布局（Holy Grail Layout）</h3></main>
+		<nav class="holy-grail-nav">#left</nav>
+		<aside class="holy-grail-ads">#right</aside>
+	</div>
+	<footer>#footer</footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,507 @@
+.qz_vip_icon_l_1, .qz_vip_icon_l_2, .qz_vip_icon_l_3, .qz_vip_icon_l_4, .qz_vip_icon_l_5, .qz_vip_icon_l_6, .qz_vip_icon_l_7, .qz_vip_icon_l_8, .qz_vip_icon_l_gray_1, .qz_vip_icon_l_gray_2, .qz_vip_icon_l_gray_3, .qz_vip_icon_l_gray_4, .qz_vip_icon_l_gray_5, .qz_vip_icon_l_gray_6, .qz_vip_icon_l_gray_7, .qz_vip_icon_l_gray_8, .qz_vip_icon_fla_l_1, .qz_vip_icon_fla_l_2, .qz_vip_icon_fla_l_3, .qz_vip_icon_fla_l_4, .qz_vip_icon_fla_l_5, .qz_vip_icon_fla_l_6, .qz_vip_icon_fla_l_7, .qz_vip_icon_fla_l_8, .qz_vip_icon_fla_l_gray_1, .qz_vip_icon_fla_l_gray_2, .qz_vip_icon_fla_l_gray_3, .qz_vip_icon_fla_l_gray_4, .qz_vip_icon_fla_l_gray_5, .qz_vip_icon_fla_l_gray_6, .qz_vip_icon_fla_l_gray_7, .qz_vip_icon_fla_l_gray_8 {
+    display: inline-block;
+    width: 23px;
+    height: 26px;
+    overflow: hidden
+}
+
+.qz_vip_icon_l_1 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_l_1.png)
+}
+
+.qz_vip_icon_l_2 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_l_2.png)
+}
+
+.qz_vip_icon_l_3 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_l_3.png)
+}
+
+.qz_vip_icon_l_4 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_l_4.png)
+}
+
+.qz_vip_icon_l_5 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_l_5.png)
+}
+
+.qz_vip_icon_l_6 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_l_6.png)
+}
+
+.qz_vip_icon_l_7 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_l_7.png)
+}
+
+.qz_vip_icon_l_8 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_l_8.png)
+}
+
+.qz_vip_icon_l_gray_1 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_l_gray_1.png)
+}
+
+.qz_vip_icon_l_gray_2 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_l_gray_2.png)
+}
+
+.qz_vip_icon_l_gray_3 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_l_gray_3.png)
+}
+
+.qz_vip_icon_l_gray_4 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_l_gray_4.png)
+}
+
+.qz_vip_icon_l_gray_5 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_l_gray_5.png)
+}
+
+.qz_vip_icon_l_gray_6 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_l_gray_6.png)
+}
+
+.qz_vip_icon_l_gray_7 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_l_gray_7.png)
+}
+
+.qz_vip_icon_l_gray_8 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_l_gray_8.png)
+}
+
+.qz_vip_icon_fla_l_1 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_fla_l_1.png)
+}
+
+.qz_vip_icon_fla_l_2 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_fla_l_2.png)
+}
+
+.qz_vip_icon_fla_l_3 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_fla_l_3.png)
+}
+
+.qz_vip_icon_fla_l_4 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_fla_l_4.png)
+}
+
+.qz_vip_icon_fla_l_5 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_fla_l_5.png)
+}
+
+.qz_vip_icon_fla_l_6 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_fla_l_6.png)
+}
+
+.qz_vip_icon_fla_l_7 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_fla_l_7.png)
+}
+
+.qz_vip_icon_fla_l_8 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_fla_l_8.png)
+}
+
+.qz_vip_icon_fla_l_gray_1 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_fla_l_gray_1.png)
+}
+
+.qz_vip_icon_fla_l_gray_2 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_fla_l_gray_2.png)
+}
+
+.qz_vip_icon_fla_l_gray_3 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_fla_l_gray_3.png)
+}
+
+.qz_vip_icon_fla_l_gray_4 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_fla_l_gray_4.png)
+}
+
+.qz_vip_icon_fla_l_gray_5 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_fla_l_gray_5.png)
+}
+
+.qz_vip_icon_fla_l_gray_6 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_fla_l_gray_6.png)
+}
+
+.qz_vip_icon_fla_l_gray_7 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_fla_l_gray_7.png)
+}
+
+.qz_vip_icon_fla_l_gray_8 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_fla_l_gray_8.png)
+}
+
+.qz_vip_icon_l_year_1, .qz_vip_icon_l_year_2, .qz_vip_icon_l_year_3, .qz_vip_icon_l_year_4, .qz_vip_icon_l_year_5, .qz_vip_icon_l_year_6, .qz_vip_icon_l_year_7, .qz_vip_icon_l_year_8, .qz_vip_icon_l_year_gray_1, .qz_vip_icon_l_year_gray_2, .qz_vip_icon_l_year_gray_3, .qz_vip_icon_l_year_gray_4, .qz_vip_icon_l_year_gray_5, .qz_vip_icon_l_year_gray_6, .qz_vip_icon_l_year_gray_7, .qz_vip_icon_l_year_gray_8, .qz_vip_icon_l_gray_year_gray_1, .qz_vip_icon_l_gray_year_gray_2, .qz_vip_icon_l_gray_year_gray_3, .qz_vip_icon_l_gray_year_gray_4, .qz_vip_icon_l_gray_year_gray_5, .qz_vip_icon_l_gray_year_gray_6, .qz_vip_icon_l_gray_year_gray_7, .qz_vip_icon_l_gray_year_gray_8, .qz_vip_icon_fla_l_year_1, .qz_vip_icon_fla_l_year_2, .qz_vip_icon_fla_l_year_3, .qz_vip_icon_fla_l_year_4, .qz_vip_icon_fla_l_year_5, .qz_vip_icon_fla_l_year_6, .qz_vip_icon_fla_l_year_7, .qz_vip_icon_fla_l_year_8, .qz_vip_icon_fla_l_year_gray_1, .qz_vip_icon_fla_l_year_gray_2, .qz_vip_icon_fla_l_year_gray_3, .qz_vip_icon_fla_l_year_gray_4, .qz_vip_icon_fla_l_year_gray_5, .qz_vip_icon_fla_l_year_gray_6, .qz_vip_icon_fla_l_year_gray_7, .qz_vip_icon_fla_l_year_gray_8, .qz_vip_icon_fla_l_gray_year_gray_1, .qz_vip_icon_fla_l_gray_year_gray_2, .qz_vip_icon_fla_l_gray_year_gray_3, .qz_vip_icon_fla_l_gray_year_gray_4, .qz_vip_icon_fla_l_gray_year_gray_5, .qz_vip_icon_fla_l_gray_year_gray_6, .qz_vip_icon_fla_l_gray_year_gray_7, .qz_vip_icon_fla_l_gray_year_gray_8 {
+    display: inline-block;
+    width: 38px;
+    height: 26px;
+    overflow: hidden
+}
+
+.qz_vip_icon_l_year_1 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_l_year_1.png)
+}
+
+.qz_vip_icon_l_year_2 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_l_year_2.png)
+}
+
+.qz_vip_icon_l_year_3 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_l_year_3.png)
+}
+
+.qz_vip_icon_l_year_4 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_l_year_4.png)
+}
+
+.qz_vip_icon_l_year_5 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_l_year_5.png)
+}
+
+.qz_vip_icon_l_year_6 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_l_year_6.png)
+}
+
+.qz_vip_icon_l_year_7 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_l_year_7.png)
+}
+
+.qz_vip_icon_l_year_8 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_l_year_8.png)
+}
+
+.qz_vip_icon_l_year_gray_1 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_l_year_gray_1.png)
+}
+
+.qz_vip_icon_l_year_gray_2 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_l_year_gray_2.png)
+}
+
+.qz_vip_icon_l_year_gray_3 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_l_year_gray_3.png)
+}
+
+.qz_vip_icon_l_year_gray_4 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_l_year_gray_4.png)
+}
+
+.qz_vip_icon_l_year_gray_5 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_l_year_gray_5.png)
+}
+
+.qz_vip_icon_l_year_gray_6 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_l_year_gray_6.png)
+}
+
+.qz_vip_icon_l_year_gray_7 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_l_year_gray_7.png)
+}
+
+.qz_vip_icon_l_year_gray_8 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_l_year_gray_8.png)
+}
+
+.qz_vip_icon_l_gray_year_gray_1 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_l_gray_year_gray_1.png)
+}
+
+.qz_vip_icon_l_gray_year_gray_2 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_l_gray_year_gray_2.png)
+}
+
+.qz_vip_icon_l_gray_year_gray_3 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_l_gray_year_gray_3.png)
+}
+
+.qz_vip_icon_l_gray_year_gray_4 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_l_gray_year_gray_4.png)
+}
+
+.qz_vip_icon_l_gray_year_gray_5 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_l_gray_year_gray_5.png)
+}
+
+.qz_vip_icon_l_gray_year_gray_6 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_l_gray_year_gray_6.png)
+}
+
+.qz_vip_icon_l_gray_year_gray_7 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_l_gray_year_gray_7.png)
+}
+
+.qz_vip_icon_l_gray_year_gray_8 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_l_gray_year_gray_8.png)
+}
+
+.qz_vip_icon_fla_l_year_1 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_fla_l_year_1.png)
+}
+
+.qz_vip_icon_fla_l_year_2 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_fla_l_year_2.png)
+}
+
+.qz_vip_icon_fla_l_year_3 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_fla_l_year_3.png)
+}
+
+.qz_vip_icon_fla_l_year_4 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_fla_l_year_4.png)
+}
+
+.qz_vip_icon_fla_l_year_5 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_fla_l_year_5.png)
+}
+
+.qz_vip_icon_fla_l_year_6 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_fla_l_year_6.png)
+}
+
+.qz_vip_icon_fla_l_year_7 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_fla_l_year_7.png)
+}
+
+.qz_vip_icon_fla_l_year_8 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_fla_l_year_8.png)
+}
+
+.qz_vip_icon_fla_l_year_gray_1 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_fla_l_year_gray_1.png)
+}
+
+.qz_vip_icon_fla_l_year_gray_2 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_fla_l_year_gray_2.png)
+}
+
+.qz_vip_icon_fla_l_year_gray_3 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_fla_l_year_gray_3.png)
+}
+
+.qz_vip_icon_fla_l_year_gray_4 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_fla_l_year_gray_4.png)
+}
+
+.qz_vip_icon_fla_l_year_gray_5 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_fla_l_year_gray_5.png)
+}
+
+.qz_vip_icon_fla_l_year_gray_6 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_fla_l_year_gray_6.png)
+}
+
+.qz_vip_icon_fla_l_year_gray_7 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_fla_l_year_gray_7.png)
+}
+
+.qz_vip_icon_fla_l_year_gray_8 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_fla_l_year_gray_8.png)
+}
+
+.qz_vip_icon_fla_l_gray_year_gray_1 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_fla_l_gray_year_gray_1.png)
+}
+
+.qz_vip_icon_fla_l_gray_year_gray_2 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_fla_l_gray_year_gray_2.png)
+}
+
+.qz_vip_icon_fla_l_gray_year_gray_3 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_fla_l_gray_year_gray_3.png)
+}
+
+.qz_vip_icon_fla_l_gray_year_gray_4 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_fla_l_gray_year_gray_4.png)
+}
+
+.qz_vip_icon_fla_l_gray_year_gray_5 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_fla_l_gray_year_gray_5.png)
+}
+
+.qz_vip_icon_fla_l_gray_year_gray_6 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_fla_l_gray_year_gray_6.png)
+}
+
+.qz_vip_icon_fla_l_gray_year_gray_7 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_fla_l_gray_year_gray_7.png)
+}
+
+.qz_vip_icon_fla_l_gray_year_gray_8 {
+    background-image: url(img/qz_vip_icon/qz_vip_icon_fla_l_gray_year_gray_8.png)
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, input, button, textarea, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0
+}
+
+.clearfix:before, .clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden
+}
+
+.clearfix:after {
+    clear: both
+}
+
+.clearfix {
+    zoom: 1
+}
+
+.act_toolbar {
+    height: 40px;
+    background-color: #1f1f1f;
+    color: #a3a3a3;
+    font-size: 12px
+}
+
+.act_toolbar .toolbar_wrap, .act_zone .zone_wrap {
+    width: 320px;
+    margin: 0 auto
+}
+
+.act_toolbar .logo {
+    width: 119px;
+    height: 40px;
+    background-image: url(sprite/mobile_act_global-jan151112190459.png);
+    background-position: 0 0;
+    float: left
+}
+
+.act_toolbar .logo span {
+    display: none
+}
+
+.act_toolbar .user_info {
+    float: right;
+    margin-top: 10px;
+    margin-right: 12px;
+    line-height: 20px
+}
+
+.act_toolbar .user_info .user_name {
+    display: inline-block;
+    max-width: 60px;
+    _width: 60px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    vertical-align: top;
+    margin-right: 5px
+}
+
+.act_toolbar .user_info a {
+    color: #a3a3a3;
+    text-decoration: none
+}
+
+.footer {
+    height: 17px;
+    color: #a3a3a3;
+    font-size: 12px;
+    padding: 5px 0;
+    background-color: #1f1f1f
+}
+
+.footer .footer_wrap {
+    width: 320px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 17px
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.25), only screen and (min-resolution: 120dpi), only screen and (min-resolution: 1.25dppx) {
+    .qz_vip_icon_l_year_1 {
+        background-image: url(img/qz_vip_icon/qz_vip_icon_l_year_1@2x.png);
+        background-size: 38px 26px
+    }
+
+    .qz_vip_icon_l_year_2 {
+        background-image: url(img/qz_vip_icon/qz_vip_icon_l_year_2@2x.png);
+        background-size: 38px 26px
+    }
+
+    .qz_vip_icon_l_year_3 {
+        background-image: url(img/qz_vip_icon/qz_vip_icon_l_year_3@2x.png);
+        background-size: 38px 26px
+    }
+
+    .qz_vip_icon_l_year_4 {
+        background-image: url(img/qz_vip_icon/qz_vip_icon_l_year_4@2x.png);
+        background-size: 38px 26px
+    }
+
+    .qz_vip_icon_l_year_5 {
+        background-image: url(img/qz_vip_icon/qz_vip_icon_l_year_5@2x.png);
+        background-size: 38px 26px
+    }
+
+    .qz_vip_icon_l_year_6 {
+        background-image: url(img/qz_vip_icon/qz_vip_icon_l_year_6@2x.png);
+        background-size: 38px 26px
+    }
+
+    .qz_vip_icon_l_year_7 {
+        background-image: url(img/qz_vip_icon/qz_vip_icon_l_year_7@2x.png);
+        background-size: 38px 26px
+    }
+
+    .qz_vip_icon_l_year_8 {
+        background-image: url(img/qz_vip_icon/qz_vip_icon_l_year_8@2x.png);
+        background-size: 38px 26px
+    }
+
+    .qz_vip_icon_fla_l_year_1 {
+        background-image: url(img/qz_vip_icon/qz_vip_icon_fla_l_year_1@2x.png);
+        background-size: 38px 26px
+    }
+
+    .qz_vip_icon_fla_l_year_2 {
+        background-image: url(img/qz_vip_icon/qz_vip_icon_fla_l_year_2@2x.png);
+        background-size: 38px 26px
+    }
+
+    .qz_vip_icon_fla_l_year_3 {
+        background-image: url(img/qz_vip_icon/qz_vip_icon_fla_l_year_3@2x.png);
+        background-size: 38px 26px
+    }
+
+    .qz_vip_icon_fla_l_year_4 {
+        background-image: url(img/qz_vip_icon/qz_vip_icon_fla_l_year_4@2x.png);
+        background-size: 38px 26px
+    }
+
+    .qz_vip_icon_fla_l_year_5 {
+        background-image: url(img/qz_vip_icon/qz_vip_icon_fla_l_year_5@2x.png);
+        background-size: 38px 26px
+    }
+
+    .qz_vip_icon_fla_l_year_6 {
+        background-image: url(img/qz_vip_icon/qz_vip_icon_fla_l_year_6@2x.png);
+        background-size: 38px 26px
+    }
+
+    .qz_vip_icon_fla_l_year_7 {
+        background-image: url(img/qz_vip_icon/qz_vip_icon_fla_l_year_7@2x.png);
+        background-size: 38px 26px
+    }
+
+    .qz_vip_icon_fla_l_year_8 {
+        background-image: url(img/qz_vip_icon/qz_vip_icon_fla_l_year_8@2x.png);
+        background-size: 38px 26px
+    }
+
+    .act_toolbar .logo {
+        background-image: url(sprite/mobile_act_global-jan151112190459@2x.png);
+        background-size: 119px 40px;
+        background-position: 0 0
+    }
+}
+
+#CssGaga {
+    content: "151230114319,jan,334"
+}

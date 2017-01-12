@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <style type="text/css">
+        body {
+            background-color: #adf7fe;
+        }
+
+        @media screen and (max-width: 320px) {
+            body {
+                font-size: 14px;
+            }
+        }
+
+        @media screen and (min-width: 321px) and (max-width: 413px) {
+            body {
+                font-size: 16px;
+            }
+        }
+
+        @media screen and (min-width: 414px) and (max-width: 639px) {
+            body {
+                font-size: 17px;
+            }
+        }
+
+        @media screen and (min-width: 640px) {
+            body {
+                font-size: 18px;
+            }
+        }
+
+        .bird {
+            width: 0.81rem;
+            height: 0.71rem;
+            top: 10%;
+            right: 0;
+            position: absolute;
+            z-index: 10;
+            background: url(bird.png) no-repeat;
+            background-size: 2.73rem 0.71rem;
+            background-position: 0 0;
+        }
+
+        .birdFly {
+            /*简写*/
+            animation: bird-slow 400ms steps(3) infinite;
+            -webkit-animation: bird-slow 400ms steps(3) infinite;
+            -moz-animation: bird-slow 400ms steps(3) infinite;
+            -ms-animation: bird-slow 400ms steps(3) infinite;
+            -o-animation: bird-slow 400ms steps(3) infinite;
+
+            /*分步写*/
+            /*animation-name: bird-slow;*/
+            /*animation-duration: 400ms;*/
+            /*animation-timing-function: steps(3);*/
+            /*animation-iteration-count: infinite;*/
+
+            /*-webkit-animation-name: bird-slow;*/
+            /*-webkit-animation-duration: 400ms;*/
+            /*-webkit-animation-timing-function: steps(3);*/
+            /*-webkit-animation-iteration-count: infinite;*/
+
+            /*-moz-animation-name: bird-slow;*/
+            /*-moz-animation-duration: 400ms;*/
+            /*-moz-animation-timing-function: steps(3);*/
+            /*-moz-animation-iteration-count: infinite;*/
+
+            /*-ms-animation-name: bird-slow;*/
+            /*-ms-animation-duration: 400ms;*/
+            /*-ms-animation-timing-function: steps(3);*/
+            /*-ms-animation-iteration-count: infinite;*/
+            /**/
+            /*-o-animation-name: bird-slow;*/
+            /*-o-animation-duration: 400ms;*/
+            /*-o-animation-timing-function: steps(3);*/
+            /*-o-animation-iteration-count: infinite;*/
+        }
+
+        @keyframes bird-slow {
+            0% {
+                background-position: -0px 0;
+            }
+            100% {
+                background-position: -2.73rem 0;
+            }
+        }
+
+        @-webkit-keyframes bird-slow {
+            0% {
+                background-position: -0px 0;
+            }
+            100% {
+                background-position: -2.73rem 0;
+            }
+        }
+
+        @-moz-keyframes bird-slow {
+            0% {
+                background-position: -0px 0;
+            }
+            100% {
+                background-position: -2.73rem 0;
+            }
+        }
+
+        @-ms-keyframes bird-slow {
+            0% {
+                background-position: -0px 0;
+            }
+            100% {
+                background-position: -2.73rem 0;
+            }
+        }
+
+        @-o-keyframes bird-slow {
+            0% {
+                background-position: -0px 0;
+            }
+            100% {
+                background-position: -2.73rem 0;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+尺寸增加后，精灵图正常
+<div class="bird birdFly"></div>
+<br>
+<button style="border: 1px solid #ccc;">点击运动</button>
+<script type="text/javascript" src="../../jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="jquery.transit.js"></script>
+<script>
+
+
+    (function () {
+        var docEl = document.documentElement;
+        //当设备的方向变化（设备横向持或纵向持）此事件被触发。绑定此事件时，
+        //注意现在当浏览器不支持orientationChange事件的时候我们绑定了resize 事件。
+        //总来的来就是监听当然窗口的变化，一旦有变化就需要重新设置根字体的值
+        var resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize';
+        var recalc = function () {
+
+            //这个640是根据设计稿的横向宽度来确定的，假如你的设计稿是750，那就填写750
+            var windowWidth = docEl.clientWidth > 640 ? 640 : docEl.clientWidth;
+
+            //设置根字体大小
+            docEl.style.fontSize = (windowWidth / 6.4) + 'px';
+            // 这个6.4就是根据设计稿的横向宽度来确定的，假如你的设计稿是750
+            // 那么 html.style.fontSize = windowWidth / 7.5 + 'px';
+
+        };
+
+        console.log(resizeEvt);
+
+        //绑定浏览器缩放与加载时间
+        window.addEventListener(resizeEvt, recalc, false);
+        document.addEventListener('DOMContentLoaded', recalc, false);
+
+    })();
+
+    $("button").on("click", function () {
+        /**
+         * 通过transition的方式改变运动
+         */
+        $(".bird").transition({
+            'right': "80%"
+        }, 10000, 'linear', function () {
+            alert("结束")
+        });
+    });
+
+</script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        body {
+            background-color: #adf7fe;
+        }
+
+        .bird {
+            min-width: 91px;
+            min-height: 71px;
+            top: 10%;
+            position: absolute;
+            z-index: 10;
+            background: url(bird.png);
+        }
+
+        .birdFly {
+            /*简写*/
+            animation: bird-slow 400ms steps(3) infinite;
+            -webkit-animation: bird-slow 400ms steps(3) infinite;
+            -moz-animation: bird-slow 400ms steps(3) infinite;
+            -ms-animation: bird-slow 400ms steps(3) infinite;
+            -o-animation: bird-slow 400ms steps(3) infinite;
+
+            /*分步写*/
+            /*animation-name: bird-slow;*/
+            /*animation-duration: 400ms;*/
+            /*animation-timing-function: steps(3);*/
+            /*animation-iteration-count: infinite;*/
+
+            /*-webkit-animation-name: bird-slow;*/
+            /*-webkit-animation-duration: 400ms;*/
+            /*-webkit-animation-timing-function: steps(3);*/
+            /*-webkit-animation-iteration-count: infinite;*/
+
+            /*-moz-animation-name: bird-slow;*/
+            /*-moz-animation-duration: 400ms;*/
+            /*-moz-animation-timing-function: steps(3);*/
+            /*-moz-animation-iteration-count: infinite;*/
+
+            /*-ms-animation-name: bird-slow;*/
+            /*-ms-animation-duration: 400ms;*/
+            /*-ms-animation-timing-function: steps(3);*/
+            /*-ms-animation-iteration-count: infinite;*/
+            /**/
+            /*-o-animation-name: bird-slow;*/
+            /*-o-animation-duration: 400ms;*/
+            /*-o-animation-timing-function: steps(3);*/
+            /*-o-animation-iteration-count: infinite;*/
+        }
+
+        @keyframes bird-slow {
+            0% {
+                background-position: -0px 0;
+            }
+            100% {
+                background-position: -273px 0;
+            }
+        }
+
+        @-webkit-keyframes bird-slow {
+            0% {
+                background-position: -0px 0;
+            }
+            100% {
+                background-position: -273px 0;
+            }
+        }
+
+        @-moz-keyframes bird-slow {
+            0% {
+                background-position: -0px 0;
+            }
+            100% {
+                background-position: -273px 0;
+            }
+        }
+
+        @-ms-keyframes bird-slow {
+            0% {
+                background-position: -0px 0;
+            }
+            100% {
+                background-position: -273px 0;
+            }
+        }
+
+        @-o-keyframes bird-slow {
+            0% {
+                background-position: -0px 0;
+            }
+            100% {
+                background-position: -273px 0;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+steps(3)实现帧动画
+<div class="bird birdFly"></div>
+</body>
+</html>

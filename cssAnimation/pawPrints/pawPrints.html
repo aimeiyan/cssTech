@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        body {
+            background: #8fd5d5;
+        }
+        .contain-animation {
+            height: 350px;
+        }
+
+        .contain-bear {
+            position: relative;
+            margin: 50px 0 0;
+            width: 575px;
+            height: 200px;
+        }
+
+        .cover {
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: #8fd5d5;
+            height: 150px;
+            width: 675px;
+            animation: walk 7s steps(7, end) infinite;
+            -webkit-animation: walk 7s steps(7, end) infinite;
+        }
+
+        @keyframes walk {
+            to {
+                transform: translateX(675px);
+            }
+        }
+
+        @-webkit-keyframes walk {
+            to {
+                -webkit-transform: translateX(675px);
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="contain-animation">
+    <div class="contain-bear">
+        <img class="prints" src="pawprints.svg" alt="Bear Prints"/>
+        <span class="cover"></span>
+    </div>
+</div>
+</body>
+</html>

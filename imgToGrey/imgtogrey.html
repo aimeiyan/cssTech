@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #myImage:hover {
+            display: block;
+            -webkit-filter: grayscale(1);/* Webkit */
+            filter: grayscale(1);/* W3C */ 
+            filter: gray;
+            filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);/*IE*/
+/*            filter: alpha(opacity=60);
+            opacity: 0.6;*/
+        }
+    </style>
+</head>
+<body>
+<div id="wrapper">
+    <img id="myImage" src="demo.jpg"/>
+</div>
+</body>
+</html>

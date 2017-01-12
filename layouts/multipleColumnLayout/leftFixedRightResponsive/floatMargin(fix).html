@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>左列定宽右列自适应</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .clearfix:before, .clearfix:after {
+            content: "";
+            display: table;
+        }
+
+        .clearfix:after {
+            clear: both;
+            overflow: hidden;
+        }
+
+        .clearfix {
+            zoom: 1;
+        }
+
+        .parent {
+            margin: 0 auto;
+            border: 1px solid #ccc;
+            color: #fff;
+        }
+
+        .left {
+            float: left;
+            width: 100px;
+            height: 200px;
+            background: #ff0000;
+            text-align: center;
+        }
+
+        .right-fix {
+            width: 100%;
+            float: right;
+            height: 200px;
+            margin-left: -100px;
+        }
+
+        .right {
+            margin-left: 100px;
+            height: 200px;
+            background: #0000ff;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div class="parent clearfix">
+    <div class="left">定宽</div>
+    <div class="right-fix">
+        <div class="right">自适应</div>
+    </div>
+</div>
+</body>
+</html>

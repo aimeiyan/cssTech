@@ -1,0 +1,14 @@
+一：CSS3 Animation
+1、@keyframes 名字 关键帧
+    animation-name：动画名称
+    animation-duration：动画持续时间
+    animation-delay：延迟执行时间
+
+    animation-timing-function：动画形变函数指定
+    是animation-timing-function是控制时间的属性，在取值中除了常用到的 三次贝塞尔曲线 以外，还有个很高级的 steps() 函数，
+    steps函数也就是整个圣诞主题(见christmas文件夹的实例)的关键知识点。steps要配合精灵图使用，简单来说就是用来切换多个精灵图的，形成帧动画，类似setTimeout的处理感觉
+
+    animation-play-state：播放状态指定
+
+2、css3框架 animate.css
+http://daneden.github.io/animate.css/

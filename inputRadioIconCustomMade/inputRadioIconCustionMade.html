@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        .radio {
+            padding: 5px 0;
+            display: inline-block;
+        }
+
+        .radio + .radio {
+            margin-left: 10px;
+        }
+
+        .radio label {
+            position: relative;
+            padding-left: 25px;
+            vertical-align: middle;
+            display: inline-block;
+            line-height: 21px !important;
+            margin-bottom: 0 !important;
+            font-weight: 400;
+            cursor: pointer;
+        }
+
+        .radio input[type=radio] {
+            position: absolute;
+            /*left: 0;*/
+        }
+
+        .radio input[type=radio]:checked + label::after {
+            background-color: #FC3E2D;
+        }
+
+        .radio label::before {
+            position: absolute;
+            content: "";
+            display: inline-block;
+            width: 17px;
+            height: 17px;
+            border: 2px solid #797C80;
+            border-radius: 50%;
+            background-color: #fff;
+            left: 0;
+            z-index: 1;
+        }
+
+        .radio label::after {
+            position: absolute;
+            content: "";
+            display: inline-block;
+            width: 11px;
+            height: 11px;
+            border-radius: 50%;
+            background-color: #fff;
+            left: 5px;
+            z-index: 2;
+            top: 5px;
+        }
+
+    </style>
+</head>
+<body>
+<div class="radio">
+    <input type="radio" name="org-card-type" id="org-card-type1">
+    <label for="org-card-type1">营业执照</label>
+</div>
+
+<div class="radio">
+    <input type="radio" name="org-card-type" id="org-card-type2">
+    <label for="org-card-type2">组织机构代码</label>
+</div>
+
+</body>
+</html>

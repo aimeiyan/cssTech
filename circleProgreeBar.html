@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            font-family: "微软雅黑";
+            background-color: #a066cd;
+        }
+        .circle-progress {
+            width: 88px;
+            height: 88px;
+            position: absolute;
+            border-radius: 50%;
+            background: #ff8d48;
+        }
+        .pie_left, .pie_right {
+            width:88px;
+            height:88px;
+            position: absolute;
+            top: 0;left: 0;
+        }
+        .left, .right {
+            width:88px;
+            height:88px;
+            background:#a544d0;
+            border-radius: 50%;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .pie_right, .right {
+            clip:rect(0,auto,auto,44px);
+        }
+        .pie_left, .left {
+            clip:rect(0,44px,auto,0);
+        }
+        .mask {
+            width: 84px;
+            height: 84px;
+            border-radius: 50%;
+            left: 2px;
+            top: 2px;
+            background: #a066cd;
+            position: absolute;
+            text-align: center;
+            line-height: 84px;
+            font-size: 20px;
+            font-weight: bold;
+            color: #a544d0;
+        }
+    </style>
+</head>
+<body>
+<!--<div class="circle-progress" style="left:0">-->
+    <!--<div class="pie_left"><div class="left"></div></div>-->
+    <!--<div class="pie_right"><div class="right"></div></div>-->
+    <!--<div class="mask"><span>0</span>%</div>-->
+<!--</div>-->
+<div class="circle-progress" style="left:220px">
+    <div class="pie_left"><div class="left"></div></div>
+    <div class="pie_right"><div class="right"></div></div>
+    <div class="mask"><span>75</span>%</div>
+</div>
+<!--<div class="circle-progress" style="left:440px">-->
+    <!--<div class="pie_left"><div class="left"></div></div>-->
+    <!--<div class="pie_right"><div class="right"></div></div>-->
+    <!--<div class="mask"><span>30</span>%</div>-->
+<!--</div>-->
+<!--<div class="circle-progress" style="left:660px">-->
+    <!--<div class="pie_left"><div class="left"></div></div>-->
+    <!--<div class="pie_right"><div class="right"></div></div>-->
+    <!--<div class="mask"><span>60</span>%</div>-->
+<!--</div>-->
+<!--<div class="circle-progress" style="left:880px">-->
+    <!--<div class="pie_left"><div class="left"></div></div>-->
+    <!--<div class="pie_right"><div class="right"></div></div>-->
+    <!--<div class="mask"><span>90</span>%</div>-->
+<!--</div>-->
+<script src="../../icitic/hrm/src/main/webapp/plugins/third/jquery/jquery-1.9.1.js"></script>
+
+<script>
+    $(function() {
+        $('.circle-progress').each(function(index, el) {
+            var num = $(this).find('span').text() * 3.6;
+            if (num<=180) {
+                $(this).find('.right').css('transform', "rotate(" + num + "deg)");
+            } else {
+                $(this).find('.right').css('transform', "rotate(180deg)");
+                $(this).find('.left').css('transform', "rotate(" + (num - 180) + "deg)");
+            }
+        });
+
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style type="text/css">
+		*{
+			box-sizing: border-box;
+		}
+		body{
+			font-family: 'Open Sans', sans-serif;
+			background: linear-gradient(top, #222, #333);
+    		background: -webkit-linear-gradient(top, #222, #333);
+		}
+
+		[class$="panel"]{
+			display: flex;
+			width: 104px;
+			height: 104px;
+			background-color: #e7e7e7;
+			padding: 4px;
+			margin: 6px;
+			border-radius: 10%;
+		}
+
+		.item{
+			display: block;
+			width: 24px;
+			height: 24px;
+			margin: 4px;
+			border-radius: 50%;
+			background-color: #333;
+			color: #e7e7e7;
+			line-height: 24px;
+			text-align: center;
+		}
+		.container-01-panel{
+			align-content: center;
+			flex-wrap: wrap;
+		}
+
+		.container-02-panel{
+				align-content: space-between;
+				flex-wrap: wrap;
+		}
+		.container-02-panel .column{
+			display: flex;
+			flex-basis: 100%;
+			justify-content: space-between;
+		}
+
+	</style>
+</head>
+<body>
+<div class="container-01-panel">
+	<span class="item">1</span>
+	<span class="item">2</span>
+	<span class="item">3</span>
+	<span class="item">4</span>
+</div>
+<div class="container-02-panel">
+	<div class="column">
+		<span class="item">1</span>
+		<span class="item">2</span>
+	</div>
+	<div class="column">
+		<span class="item">3</span>
+		<span class="item">4</span>
+	</div>
+</div>
+</body>
+</html>
