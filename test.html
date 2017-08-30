@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .parent:after {
+            content: ".";
+            height: 0;
+            clear: both;
+            visibility: hidden;
+            display: block;
+        }
+
+        #div1 {
+            width: 50%;
+            height: 100px;
+            background-color: red;
+        }
+
+        #div2 {
+            width: 50%;
+            height: 100px;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+<div class="parent">
+    <div id="div1" style="float:left"></div>
+    <div id="div2" style="float:left"></div>
+    <!--<div style="clear:both;"></div>-->
+</div>
+</body>
+</html>

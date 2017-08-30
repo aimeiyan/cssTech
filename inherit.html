@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+<script type="text/javascript">
+
+    function insert_sort(arr) {
+        for(var i = 1; i < arr.length; i++) {
+            for(var j = i-1; j>= 0; j--) {
+                if(arr[j] > arr[j+1]) {
+//                    arr[j], arr[j+1] = arr[j+1], arr[j]
+
+                    var tmp = arr[j];
+                    arr[j] = arr[j+1];
+                    arr[j+1] = tmp;
+
+                } else {
+                    break;
+                }
+            }
+        }
+    }
+
+
+
+    var xhr = $.get('/sds'); // future
+    xhr.then(function (resp) {
+
+    });
+
+    xhr.then(function() {
+
+    });
+
+
+    // 78
+
+    // o(n)
+
+    // n(log(n)
+
+    function find(arr, target) {
+        for(var k=0;k<arr.length;k++){
+            if(arr[k] == target) return k;
+        }
+        return -1;
+    }
+
+
+
+    // 1, 2, 3 // 0
+
+    // -> 1, 2, 0, 3
+    // -> 1, 0, 2, 3
+    // -> 0, 1, 2, 3
+
+    // arr.length -> O(n ^ 2)
+    // O(1)
+    // O(n)
+    function sum(arr) {
+        var s = 0;
+//        var r = [];
+
+        for(var i = 0; i < arr.length; i++) {
+//            r.push(arr[i]);
+
+            for(var j = 0; j < arr.length; j++) {
+                s += arr[i];
+            }
+        }
+        return s;
+    }
+
+    var xhr = $.get('/sds', function(){
+
+    });
+
+
+
+    function person() {
+        this.hair = "black";
+        this.eye = "black";
+        this.skin = "yellow";
+        this.view = function () {
+            return this.hair + "," + this.eye + "," + this.skin;
+        }
+    }
+
+    function man() {
+        this.feature = ['beard', "strong"];
+    }
+
+    man.prototype = new person();
+    var one = new man();
+
+    console.log(one.feature);
+    console.log(one.hair);
+    console.log(one.eye);
+    console.log(one.skin);
+    console.log(one.view());
+
+</script>
+
+</body>
+</html>
