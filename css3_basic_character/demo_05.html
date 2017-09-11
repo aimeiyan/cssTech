@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .parent>dd:nth-child(2){
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<code>
+    <pre>
+        .parent>dd:nth-child(2){
+            color: red;
+        }
+    </pre>
+</code>
+<p>一道面试题，nth-child下标是从1开始，但是此处css中的dd标签貌似没有起作用，此处下标1代表dt标签，并不是第一个dd标签</p>
+<div class="parent">
+    <dt>dt</dt>
+    <dd>dd-01</dd>
+    <dd>dd-02</dd>
+    <dd>dd-03</dd>
+</div>
+</body>
+</html>

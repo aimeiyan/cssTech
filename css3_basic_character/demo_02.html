@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .clearfix {
+            zoom: 1;
+        }
+
+        .clearfix:after {
+            content: ".";
+            display: block;
+            height: 0;
+            visibility: hidden;
+            clear: both;
+        }
+
+        .child {
+            width: 50%;
+            height: 200px;
+        }
+
+        .child1 {
+            float: left;
+            background-color: #fffacd;
+        }
+
+        .child2 {
+            float: right;
+            background-color: #ff0084;
+        }
+    </style>
+</head>
+<body>
+<div class="parent clearfix">
+    <div class="child child1"></div>
+    <div class="child child2"></div>
+</div>
+</body>
+</html>
