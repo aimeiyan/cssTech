@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>flex布局</title>
+    <style type="text/css">
+        .wrapper{
+            max-width: 400px;
+            height: 80vh;
+            margin: 8vh auto;
+            background-image: repeating-linear-gradient(-45deg,pink,pink 10px,hotpink 10px,hotpink 12px,pink 12px);
+
+            display: flex;
+            justify-content: center;  /*flex-end,flex-start*/
+            align-items: center;  /*flex-end,flex-start*/
+        }
+
+        .el{
+            padding: 20px;
+            background-color: #888;
+            border: 1px solid #fff;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="el">one</div>
+        <div class="el">two</div>
+        <div class="el">three</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>grid布局</title>
+    <style type="text/css">
+        .wrapper{
+            max-width: 600px;
+            margin: 30px auto;
+            background-image: repeating-linear-gradient(-45deg,pink,pink 10px,hotpink 10px,hotpink 12px,pink 12px);
+
+            display: grid;
+            /*grid-template-columns: repeat(auto-fill,140px);*/
+            grid-template-columns: repeat(auto-fill,minmax(140px,1fr));
+            /*grid-template-columns: repeat(5,100px);*/
+            /*grid-template-columns: repeat(5,20%);*/
+
+        }
+
+        .el{
+            padding: 5vh;
+            background-color: #888;
+            border: 1px solid #fff;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="el">One</div>
+        <div class="el">Two</div>
+        <div class="el">Three</div>
+        <div class="el">Four</div>
+        <div class="el">Five</div>
+        <div class="el">Six</div>
+        <div class="el">Seven</div>
+        <div class="el">Eight</div>
+    </div>
+</body>
+</html>
